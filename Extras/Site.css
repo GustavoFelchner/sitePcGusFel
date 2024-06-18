@@ -1,0 +1,16 @@
+body {background-color: rgb(36, 35, 35);}
+h1 {border: 10px solid orange; background-color: orange; border-radius: 7px; text-align: center; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+div.abas {border: 3px outset rgb(17, 149, 236); background-color: rgb(17, 149, 236); border-radius: 7px;}
+a {font-size:large; color: rgb(174, 216, 235); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin: 3px;}
+h2 {text-align: center; color: rgb(187, 187, 187);}
+p {text-align: justify; color: rgb(187, 187, 187); font-size: medium;}
+ul.white {color: rgb(187, 187, 187);}
+.a {font-size: xx-large; color: greenyellow; border: none; background:none; margin-top: 10px; text-align: center;}
+input {font-size: large;}
+label {color: rgb(231, 230, 230); margin: 2px; margin-inline-end: 5px; margin-inline-start: 40px;}
+.vazio {margin: 0px;}
+#s1 {background-image: url(https://semifree.com.br/wp-content/uploads/2020/10/manutencao_de_celulares_e_smartphones_598076516.jpg); height: 480px; width: 720px ;border: 3px solid white; align-content:end; border-radius: 20px; background-size:contain; background-repeat:no-repeat; background-position:center; background-color:white; margin: 0px auto 0px auto;}
+#next {border: solid white 1px; background-image: url(https://th.bing.com/th/id/OIP.rvm9gh3Hqjpv3pG-kq1CrgAAAA?rs=1&pid=ImgDetMain); height: 40px; width: 40px; border-radius: 100%; background-position: center; background-size: contain; margin: 10px; cursor: pointer;}
+.x {padding: 10px; max-width: 70%; min-width: 500px; margin:0px auto 0px auto; text-align: left;}
+.y {font-size: x-large; margin: 0 30px 0 30px;}
+.popUp {background-color: rgb(255, 255, 255); padding: 20px; width: 300px; border-radius: 10px;text-align: center; display: flex; flex-direction:column; position: absolute; top: 160px; left: 80px;}
