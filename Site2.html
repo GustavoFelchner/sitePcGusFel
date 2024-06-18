@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em contato - Manutenção e Reparo de Celulares</title>
+    <link rel="stylesheet" href="Site.css">
+</head>
+<body>
+    <h1 style="margin: 1%;">Manutenção e Reparo de Celulares</h1>
+<div class="abas">
+    <p><a href="Site.html"><strong>Página Inicial</strong></a> | <a style="color: rgb(55, 55, 175);" href="Site2.html"><strong>Entre em contato</strong></a> | <a href="Site3.html"><strong>Mais informações</strong></a></p>
+</div>
+<div class="a"><strong>Whatsapp: (41) 9 2004-8183 | Email: gustavofelchner@gmail.com</strong></div>
+<p style="font-size: large; margin:20px;">Para entrar em contato, utilize o número de celular ou email acima ou preencha o formulário abaixo:</p>
+
+<form class="x" action="site.php" method="get">
+    <fieldset style="float: left;background-color: green; border-radius: 20px; padding: 10px;">
+        <legend style="color: aliceblue;">Dados do dispositivo:</legend>
+        <p><label for="marca">Marca:</label><input type="text" name="marca" id="marca" required></p>
+        <p><label for="modelo">Modelo:</label><input type="text" name="modelo" id="modelo" required></p>
+        <p><label for="imei">IMEI(International Mobile Equipment Identity):</label><input type="text" id="imei" required></p>
+        <p><label for="senha">Senha de desbloqueio:</label><input type="text" id="senha" required></p>
+        <p><label for="defeito">Defeito relatado:</label><textarea style="resize: none;" name="defeito" id="defeito" cols="70" rows="10" required></textarea></p></fieldset>
+    <fieldset style="height: 381px; background-color: green; border-radius: 20px; padding: 10px; text-align: left;">
+        <legend style="color: aliceblue;">Dados pessoais:</legend>
+        <p><label for="name">Nome completo:</label><input type="text" name="name" id="name" required></p>
+        <p><label for="cpf/cnpj">CPF/CNPJ:</label><input type="text" name="cpf/cnpj" id="cpf/cnpj" required></p>
+        <p><label for="rg/i.e">RG/I.E:</label><input type="text" name="rg/i.e" id="rg/i.e" required></p>
+        <p><label for="email">Email:</label><input type="email" name="email" id="email" required></p>
+        <p><label for="número">Número:</label><input type="text" name="número" id="número" placeholder="(xx) xxxx-xxxx" required></p></fieldset>
+
+    <input style="margin-top: 3px;" type="submit" value="Submit">
+</form>
+</body>
+</html>
